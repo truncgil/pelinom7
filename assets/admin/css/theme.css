@@ -1,0 +1,245 @@
+#sidebar {
+
+  background: #ffffff!important;
+  
+  box-shadow: 0px -5px 34px #0000001f;
+  
+  }
+      
+      h1,h2,h3,h4,h5,h6,p,a,div,li {
+      
+        font-family: 'Saira Semi Condensed', sans-serif !important;
+      
+        font-weight: 500 !important;
+      
+      }
+      
+      .main-block input {
+      
+        border:none !important;
+      
+        text-align: center;
+      
+        background: transparent;
+      
+      }
+      
+      .content-icon {
+      
+            font-size: 116px !important;
+      
+            margin: 6px;
+      
+      }
+      
+      /* The switch - the box around the slider */
+      
+      .switch {
+      
+        position: relative;
+      
+        display: inline-block;
+      
+        width: 60px;
+      
+        height: 34px;
+      
+      }
+      
+      
+      
+      /* Hide default HTML checkbox */
+      
+      .switch input {
+      
+        opacity: 0;
+      
+        width: 0;
+      
+        height: 0;
+      
+      }
+      
+      
+      
+      /* The slider */
+      
+      .slider {
+      
+        position: absolute;
+      
+        cursor: pointer;
+      
+        top: 0;
+      
+        left: 0;
+      
+        right: 0;
+      
+        bottom: 0;
+      
+        background-color: #ccc;
+      
+        -webkit-transition: .4s;
+      
+        transition: .4s;
+      
+      }
+      
+      
+      
+      .slider:before {
+      
+        position: absolute;
+      
+        content: "";
+      
+        height: 26px;
+      
+        width: 26px;
+      
+        left: 4px;
+      
+        bottom: 4px;
+      
+        background-color: white;
+      
+        -webkit-transition: .4s;
+      
+        transition: .4s;
+      
+      }
+      
+      
+      
+      .nav-main a, .block-header * {
+      
+font-size: 18px !important;
+      
+/* color: #ffffff; */
+      }
+      
+      .block-title input {
+      
+        font-size:14px !important;
+      
+      }
+      
+      .block-content * {
+        /* font-size:16px; */
+      }
+      
+      .block-options-item * {
+      
+        font-size:14px !important;
+      
+      }
+      
+      .nav-main a * {
+      
+color: #000001 !important;
+      }
+      
+      .btn {
+      
+        border:solid 1px #0000 !important;
+      
+      }
+      
+      .nav-main a:hover {
+      
+background: #000001;
+      
+/* color: #ffffff !important; */
+      }
+      
+      .nav-main li ul a:hover {
+      
+        color:#000001;
+      
+      }
+      
+      .nav-main a:hover * {
+      
+color: #ffffff !important;
+      }
+      
+      .switch input:checked + .slider {
+      
+        background-color: #000001;
+      
+      }
+      
+      
+      
+      .switch input:focus + .slider {
+      
+        box-shadow: 0 0 1px #000001;
+      
+      }
+      
+      
+      
+      .switch input:checked + .slider:before {
+      
+        -webkit-transform: translateX(26px);
+      
+        -ms-transform: translateX(26px);
+      
+        transform: translateX(26px);
+      
+      }
+      
+      
+      
+      /* Rounded sliders */
+      
+      .slider.round {
+      
+        border-radius: 34px;
+      
+      }
+      
+      
+      
+      .slider.round:before {
+      
+        border-radius: 50%;
+      
+      }
+      
+      .block .css-control {
+      
+        float: right;
+      
+          padding: 3px 7px;
+      
+      }
+      
+      .table-responsive {
+      
+        min-height: 200px;
+      
+        
+      
+      }
+      
+      .planning-responsive {
+      
+        position: absolute !important;
+      
+        height: calc(100% - 10px);
+      
+      }
+      
+      .pie form * {
+      
+        font-size:12px;
+      
+      }
+      
+      .pie form .btn.btn-rounded {
+      
+        border-radius: 0px 10px 10px 0px !important;
+      
+      }

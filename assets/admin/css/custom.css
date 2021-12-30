@@ -1,0 +1,147 @@
+.search-btn-p {
+
+    padding: 7px 5px 4px 5px !important;
+
+}
+
+
+
+.main-icons {
+
+    top: 5px;
+
+}
+
+.table td {
+
+	padding:0px 5px;
+
+}
+
+.table td input,.table .select2-selection,.table td select {
+
+	border:none;
+
+	background:none;
+
+}
+
+
+
+.table td input,.table td select{
+
+	min-width:150px;
+
+}
+
+.table td input[type=checkbox],.table td input[type=radio] {
+
+	min-width:initial;
+
+}
+
+.table .btn {
+
+	margin:3px;
+
+	font-size:12px;
+
+}
+
+.arrow-left {
+
+    width: 0px;
+
+    height: 0px;
+
+    border-top: 10px solid transparent;
+
+    border-bottom: 10px solid transparent;
+
+    border-right: 10px solid blue;
+
+}
+
+.arrow-right {
+
+    width: 0px;
+
+    height: 0px;
+
+    border-top: 10px solid transparent;
+
+    border-bottom: 10px solid transparent;
+
+    border-left: 10px solid blue;
+
+    float:right !important;
+
+    opacity:0.5
+
+}
+.cevap-isaret {
+    width:24px;
+    position:relative;
+    background:transparent;
+    z-index:1;
+    text-align:center;
+    /* padding: 12px; */
+    /* left: 15px; */
+}
+.cevap-isaret span {display: block;text-align: center;width: 31px;line-height: 22px;}
+.cevap-isaret input {
+	 position:absolute;
+     z-index:-1;
+     
+     width:16px;
+     height:16px;
+    background:none;
+    border:none;
+    -webkit-appearance: none;
+
+}
+.cevap-isaret input:after {
+	content:'';
+	position:absolute;
+	z-index:1;
+	background: #fff4f1 !important;
+	border:solid 1px #c6c6c6;
+	width:16px;
+	height:16px;
+	padding:10px;
+	top:0px;
+	left: -7px !important;
+	border-radius:100%;
+}
+.cevap-isaret input:checked:after {
+	content:'';
+	position:absolute;
+	z-index:1;
+	background:#92ceff !important;
+	border:solid 1px #c6c6c6;
+	width:16px;
+	height:16px;
+	/* padding:10px; */
+	top:0px;
+	left: 0px;
+	border-radius:100%;
+}.cevap-isaret input.iptal:checked:after {
+	content:'';
+	position:absolute;
+	z-index:1;
+	background:#ff8c84 !important;
+	border:solid 1px #c6c6c6;
+	width:16px;
+	height:16px;
+	/* padding:10px; */
+	top:0px;
+	left: 0px;
+	border-radius:100%;
+}
+.cevap-sec select {
+	font-size: 12px !important;
+}
+
+.cevap-sec .btn {
+	font-size:12px !important;
+}

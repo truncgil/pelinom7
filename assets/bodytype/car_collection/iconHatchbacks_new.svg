@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.1.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="katman_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 76 31" style="enable-background:new 0 0 76 31;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#Stroke-5_1_);stroke:#050505;}
+	.st1{fill:url(#Stroke-7_1_);stroke:#BCBCBC;stroke-miterlimit:10;}
+	.st2{fill:url(#Stroke-9_1_);stroke:#BCBCBC;stroke-miterlimit:10;}
+	.st3{fill:none;stroke:#050505;}
+	.st4{fill:none;stroke:#BCBCBC;stroke-linecap:round;}
+</style>
+<desc>Created with Sketch.</desc>
+<g id="Mobile">
+	<g id="Config-Icons" transform="translate(-1087.000000, -345.000000)">
+		<g id="hatchback_icon" transform="translate(1087.000000, 345.000000)">
+			
+				<linearGradient id="Stroke-5_1_" gradientUnits="userSpaceOnUse" x1="37.9617" y1="760.1672" x2="37.9617" y2="785.8373" gradientTransform="matrix(1 0 0 1 0 -760)">
+				<stop  offset="1.984804e-07" style="stop-color:#E0CD00;stop-opacity:0.6"/>
+				<stop  offset="0.3212" style="stop-color:#DECB00;stop-opacity:0.7285"/>
+				<stop  offset="0.4629" style="stop-color:#D7C400;stop-opacity:0.7852"/>
+				<stop  offset="0.5692" style="stop-color:#CAB900;stop-opacity:0.8277"/>
+				<stop  offset="0.6581" style="stop-color:#B8A800;stop-opacity:0.8632"/>
+				<stop  offset="0.7359" style="stop-color:#A19300;stop-opacity:0.8943"/>
+				<stop  offset="0.806" style="stop-color:#847900;stop-opacity:0.9224"/>
+				<stop  offset="0.8703" style="stop-color:#625900;stop-opacity:0.9481"/>
+				<stop  offset="0.9301" style="stop-color:#3A3500;stop-opacity:0.9721"/>
+				<stop  offset="0.9842" style="stop-color:#0E0D00;stop-opacity:0.9937"/>
+				<stop  offset="1" style="stop-color:#000000"/>
+			</linearGradient>
+			<path id="Stroke-5" class="st0" d="M68.1,25.2l5-1.5c0.1,0,0.2-0.1,0.2-0.1l1.7-2.4v-0.1c0-0.1,0.7-2.1,0.3-3.6
+				c-0.4-1.2-1.2-2.2-1.5-2.5l-1.1-5.2l-3.5-5.6c-1.4-2.6-3.6-2.8-3.6-2.8C50.5-0.1,50.4-0.1,44.3,0.7C39,0.7,34,2.6,32,3.1
+				C28,4,21,8.4,20,8.9c-1.2,0.2-14,3.5-15.5,3.9c-1.6,0.4-2.9,3.5-3.1,4.2c-0.2,0.2-0.9,0.9-0.9,1.9c0.1,0.9,0.2,5.5,0.2,5.6
+				c0,0.2,0.1,0.3,0.3,0.4L7.6,26l0,0H8"/>
+			
+				<linearGradient id="Stroke-7_1_" gradientUnits="userSpaceOnUse" x1="16.6" y1="777.6774" x2="16.6" y2="789.5934" gradientTransform="matrix(1 0 0 1 0 -760)">
+				<stop  offset="0" style="stop-color:#BCBCBC"/>
+				<stop  offset="1" style="stop-color:#000000"/>
+			</linearGradient>
+			<path id="Stroke-7" class="st1" d="M16.6,17.7c-3.3,0-6,2.7-6,6s2.7,6,6,6s6-2.7,6-6S19.9,17.7,16.6,17.7z"/>
+			
+				<linearGradient id="Stroke-9_1_" gradientUnits="userSpaceOnUse" x1="60.5" y1="777.6774" x2="60.5" y2="789.5934" gradientTransform="matrix(1 0 0 1 0 -760)">
+				<stop  offset="0" style="stop-color:#BCBCBC"/>
+				<stop  offset="1" style="stop-color:#000000"/>
+			</linearGradient>
+			<path id="Stroke-9" class="st2" d="M60.5,17.7c-3.3,0-6,2.7-6,6s2.7,6,6,6s6-2.7,6-6S63.8,17.7,60.5,17.7z"/>
+			<path id="Stroke-11" class="st3" d="M24,26l28.4-0.2"/>
+			<path id="Stroke-13" class="st4" d="M65.3,9.6l-37.6,0.6"/>
+			<path id="Stroke-3" class="st3" d="M55,12.2h4"/>
+			<path id="Stroke-1" class="st3" d="M39,12.2h4"/>
+		</g>
+	</g>
+</g>
+</svg>

@@ -1,0 +1,79 @@
+@font-face {
+  font-family: gothampro;
+  src: url(gothampro/gothampro-light.eot);
+  src: url(gothampro/gothampro-light.woff2) format("woff2"),url(gothampro/gothampro-light.woff) format("woff"),url(gothampro/gothampro-light.ttf) format("truetype"),url(gothampro/gothampro-light.svg#gothampro-light) format("svg"),url(gothampro/gothampro-light.eot?#iefix) format("embedded-opentype");
+  font-weight: 100;
+  font-style: normal
+}
+
+@font-face {
+  font-family: gothampro;
+  src: url(gothampro/gothampro-lightitalic.eot);
+  src: url(gothampro/gothampro-lightitalic.woff2) format("woff2"),url(gothampro/gothampro-lightitalic.woff) format("woff"),url(gothampro/gothampro-lightitalic.ttf) format("truetype"),url(gothampro/gothampro-lightitalic.svg#gothampro-lightitalic) format("svg"),url(gothampro/gothampro-lightitalic.eot?#iefix) format("embedded-opentype");
+  font-weight: 100;
+  font-style: italic
+}
+
+@font-face {
+  font-family: gothampro;
+  src: url(gothampro/gothampro.eot);
+  src: url(gothampro/gothampro.woff2) format("woff2"),url(gothampro/gothampro.woff) format("woff"),url(gothampro/gothampro.ttf) format("truetype"),url(gothampro/gothampro.svg#gothampro) format("svg"),url(gothampro/gothampro.eot?#iefix) format("embedded-opentype");
+  font-weight: 200;
+  font-style: normal
+}
+
+@font-face {
+  font-family: gothampro;
+  src: url(gothampro/gothampro-italic.eot);
+  src: url(gothampro/gothampro-italic.woff2) format("woff2"),url(gothampro/gothampro-italic.woff) format("woff"),url(gothampro/gothampro-italic.ttf) format("truetype"),url(gothampro/gothampro-italic.svg#gothampro-italic) format("svg"),url(gothampro/gothampro-italic.eot?#iefix) format("embedded-opentype");
+  font-weight: 200;
+  font-style: italic
+}
+
+@font-face {
+  font-family: gothampro;
+  src: url(gothampro/gothampro-medium.eot);
+  src: url(gothampro/gothampro-medium.woff2) format("woff2"),url(gothampro/gothampro-medium.woff) format("woff"),url(gothampro/gothampro-medium.ttf) format("truetype"),url(gothampro/gothampro-medium.svg#gothampro-medium) format("svg"),url(gothampro/gothampro-medium.eot?#iefix) format("embedded-opentype");
+  font-weight: 400;
+  font-style: normal
+}
+
+@font-face {
+  font-family: gothampro;
+  src: url(gothampro/gothampro-mediumitalic.eot);
+  src: url(gothampro/gothampro-mediumitalic.woff2) format("woff2"),url(gothampro/gothampro-mediumitalic.woff) format("woff"),url(gothampro/gothampro-mediumitalic.ttf) format("truetype"),url(gothampro/gothampro-mediumitalic.svg#gothampro-mediumitalic) format("svg"),url(gothampro/gothampro-mediumitalic.eot?#iefix) format("embedded-opentype");
+  font-weight: 400;
+  font-style: italic
+}
+
+@font-face {
+  font-family: gothampro;
+  src: url(gothampro/gothampro-bold.eot);
+  src: url(gothampro/gothampro-bold.woff2) format("woff2"),url(gothampro/gothampro-bold.woff) format("woff"),url(gothampro/gothampro-bold.ttf) format("truetype"),url(gothampro/gothampro-bold.svg#gothampro-bold) format("svg"),url(gothampro/gothampro-bold.eot?#iefix) format("embedded-opentype");
+  font-weight: 600;
+  font-style: normal
+}
+
+@font-face {
+  font-family: gothampro;
+  src: url(gothampro/gothampro-bolditalic.eot);
+  src: url(gothampro/gothampro-bolditalic.woff2) format("woff2"),url(gothampro/gothampro-bolditalic.woff) format("woff"),url(gothampro/gothampro-bolditalic.ttf) format("truetype"),url(gothampro/gothampro-bolditalic.svg#gothampro-bolditalic) format("svg"),url(gothampro/gothampro-bolditalic.eot?#iefix) format("embedded-opentype");
+  font-weight: 600;
+  font-style: italic
+}
+
+@font-face {
+  font-family: gothampro;
+  src: url(gothampro/gothampro-black.eot);
+  src: url(gothampro/gothampro-black.woff2) format("woff2"),url(gothampro/gothampro-black.woff) format("woff"),url(gothampro/gothampro-black.ttf) format("truetype"),url(gothampro/gothampro-black.svg#gothampro-black) format("svg"),url(gothampro/gothampro-black.eot?#iefix) format("embedded-opentype");
+  font-weight: 800;
+  font-style: normal
+}
+
+@font-face {
+  font-family: gothampro;
+  src: url(gothampro/gothampro-blackitalic.eot);
+  src: url(gothampro/gothampro-blackitalic.woff2) format("woff2"),url(gothampro/gothampro-blackitalic.woff) format("woff"),url(gothampro/gothampro-blackitalic.ttf) format("truetype"),url(gothampro/gothampro-blackitalic.svg#gothampro-blackitalic) format("svg"),url(gothampro/gothampro-blackitalic.eot?#iefix) format("embedded-opentype");
+  font-weight: 800;
+  font-style: italic
+}

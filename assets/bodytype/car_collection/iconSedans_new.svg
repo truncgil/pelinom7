@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.1.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="katman_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 101 34" style="enable-background:new 0 0 101 34;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#SVGID_1_);stroke:#050505;stroke-width:1.163;}
+	.st1{fill:url(#SVGID_2_);stroke:#BCBCBC;stroke-width:1.163;}
+	.st2{fill:url(#SVGID_3_);stroke:#050505;stroke-width:1.163;}
+	.st3{fill:none;stroke:#BCBCBC;stroke-width:1.163;}
+</style>
+<g>
+	<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="1.0004" y1="14.8745" x2="100.3722" y2="14.8745">
+		<stop  offset="0" style="stop-color:#E0CD00"/>
+		<stop  offset="0.1053" style="stop-color:#D1BF00"/>
+		<stop  offset="0.3085" style="stop-color:#A99B00"/>
+		<stop  offset="0.5888" style="stop-color:#696000"/>
+		<stop  offset="0.9324" style="stop-color:#121000"/>
+		<stop  offset="1" style="stop-color:#000000"/>
+	</linearGradient>
+	<path class="st0" d="M43.8,12.6h4.7 M68.3,12.6h4.7 M86.6,28l11-1.7c0.1,0,0.2-0.1,0.3-0.2l1.9-2.8c0,0,0-0.1,0.1-0.1
+		c0-0.1,0.8-2.5,0.3-4.2c-0.5-1.4-1.4-2.6-1.7-3l-0.9-6.2c0-0.2-0.2-0.3-0.4-0.4l-8-1.2c-1-0.4-11.9-5.2-17.4-6.4
+		C69.3,1.3,64.4,1,58.6,1c-6.2,0-11.7,0.4-14,0.9C40,3,27.1,9.4,26,10c-1.4,0.2-18.6,2.9-20.3,3.4c-1.9,0.5-3.3,4.1-3.6,4.9
+		c-0.3,0.3-1.1,1.1-1,2.2c0.1,1.1,0.2,6.5,0.2,6.6c0,0.2,0.2,0.4,0.4,0.4l7.7,1.2c0,0,0,0,0.1,0l0.5,0"/>
+	<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="48.0015" y1="19.112" x2="48.0015" y2="33.156">
+		<stop  offset="2.033214e-07" style="stop-color:#BCBCBC"/>
+		<stop  offset="0.1219" style="stop-color:#ADADAD"/>
+		<stop  offset="0.3569" style="stop-color:#858585"/>
+		<stop  offset="0.6785" style="stop-color:#464646"/>
+		<stop  offset="1" style="stop-color:#000000"/>
+	</linearGradient>
+	<path class="st1" d="M18.5,19.1c-3.8,0-6.9,3.1-6.9,7c0,3.9,3.1,7,6.9,7s6.9-3.1,6.9-7C25.5,22.3,22.4,19.1,18.5,19.1z M77.5,19.1
+		c-3.8,0-6.9,3.1-6.9,7c0,3.9,3.1,7,6.9,7c3.8,0,6.9-3.1,6.9-7C84.4,22.3,81.3,19.1,77.5,19.1z"/>
+	<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="27.563" y1="29.113" x2="68.26" y2="29.113">
+		<stop  offset="0" style="stop-color:#E0CD00"/>
+		<stop  offset="0.1053" style="stop-color:#D1BF00"/>
+		<stop  offset="0.3085" style="stop-color:#A99B00"/>
+		<stop  offset="0.5888" style="stop-color:#696000"/>
+		<stop  offset="0.9324" style="stop-color:#121000"/>
+		<stop  offset="1" style="stop-color:#000000"/>
+	</linearGradient>
+	<path class="st2" d="M27.6,29.1h40.7"/>
+	<path class="st3" d="M78.3,9.9c0.1,0,0.1,0.2,0,0.2l-45.6,0.7c-0.1,0-0.1-0.1,0-0.2"/>
+</g>
+</svg>

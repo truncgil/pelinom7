@@ -1,0 +1,336 @@
+body {
+    font-family: 'Muli', sans-serif;
+    color: #333;
+}
+
+.textBold {
+    font-weight: 700;
+}
+
+table.pvtTable {
+    font-size: 8pt;
+    text-align: left;
+    border-collapse: collapse;
+}
+table.pvtTable thead tr th, table.pvtTable tbody tr th {
+    background-color: #e6EEEE;
+    border: 1px solid #CDCDCD;
+    font-size: 8pt;
+    padding: 5px;
+}
+
+table.pvtTable .pvtColLabel {text-align: center;}
+table.pvtTable .pvtTotalLabel {text-align: right;}
+
+table.pvtTable tbody tr td {
+    color: #3D3D3D;
+    padding: 5px;
+    background-color: #FFF;
+    border: 1px solid #CDCDCD;
+    vertical-align: top;
+    text-align: right;
+}
+
+.pvtTotal, .pvtGrandTotal { font-weight: bold; }
+
+.pvtVals { 
+    /* text-align: center;  */
+    white-space: nowrap;
+}
+
+#features > div {
+    cursor:pointer;
+    margin-left: 5px;
+    display: inline-block;
+    font-size: 25px;
+    text-align: center;
+    margin-right: 15px;
+}
+
+#sort_rows {
+    margin-right: 5px !important;
+}
+
+.pvtAggregator { margin-bottom: 5px ;}
+
+.pvtAxisContainer, .pvtVals {
+    /* border: 1px solid gray; */
+    /* background: #EEE; */
+    /* padding: 5px; */
+    min-width: 20px;
+    min-height: 40px;
+
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -ms-user-select: none;
+}
+.pvtAxisContainer li {
+    margin: 8px 6px;
+    list-style-type: none;
+    cursor:move;
+}
+.pvtAxisContainer li.pvtPlaceholder {
+    -webkit-border-radius: 5px;
+    padding: 3px 15px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border: 1px dashed #aaa;
+}
+
+.pvtAxisContainer li span.pvtAttr {
+    -webkit-text-size-adjust: 100%;
+    /* background: #F3F3F3; */
+    /* border: 1px solid #DEDEDE; */
+    padding: 2px 0px 2px 7px;
+    white-space:nowrap;
+    display: flex;
+    justify-content: space-between;
+    /* -webkit-border-radius: 5px; */
+    /* -moz-border-radius: 5px; */
+    /* border-radius: 5px; */
+}
+
+.pvtTriangle {
+    cursor:pointer;
+    padding-left: 7px;
+    padding-right: 7px;
+    color: #6c757d;
+}
+
+.attrIcon .close {
+    float: none !important;
+}
+
+.pvtHorizList li { display: inline; }
+.pvtVertList { vertical-align: top; }
+
+.pvtFilteredAttribute { font-style: italic }
+
+.pvtFilterBox{
+    z-index: 100;
+    width: 320px;
+    border: 1px solid gray;
+    background-color: #fff;
+    position: absolute;
+    text-align: center;
+}
+
+.pvtFilterBox h4{ margin: 15px; }
+.pvtFilterBox p { margin: 10px auto; }
+.pvtFilterBox label { font-weight: normal; }
+.pvtFilterBox input[type='checkbox'] { margin-right: 10px; margin-left: 10px; }
+.pvtFilterBox input[type='text'] { width: 230px; }
+.pvtFilterBox .count { color: gray; font-weight: normal; margin-left: 3px;}
+
+.pvtCheckContainer{
+    text-align: left;
+    font-size: 14px;
+    white-space: nowrap;
+    overflow-y: scroll;
+    width: 100%;
+    max-height: 250px;
+    border-top: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
+}
+
+.pvtCheckContainer p{ margin: 5px; }
+
+.pvtRendererArea { padding: 5px;}
+
+
+#saveLoadArea {
+    transition: .6s;
+}
+
+.dropdown-menu {
+    max-height: 295px !important;
+    overflow-y: auto;
+}
+
+.dropdown-menu .d-flex:hover {
+    background-color: #f8f9fa !important;
+}
+
+.dropdown-item {
+    cursor:  pointer !important;
+}
+
+.dropdown-item:active {
+    background-color:  #f8f9fa !important;
+}
+
+.dropdown-item a {
+    color: #212529 !important;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+#saveLoadArea button.save {
+    background-color: #004494 !important;
+}
+
+#saveLoadArea .btn-outline-primary {
+    color: #004494 !important;
+    border-color: #004494 !important;
+}
+
+#saveLoadArea .btn-outline-primary:hover,
+#saveLoadArea .btn-outline-primary:active,
+#saveLoadArea .btn-outline-primary[aria-expanded=true] {
+    color: #fff !important;
+    background-color: #004494 !important;
+    border-color: #004494 !important;
+}
+
+#saveLoadAreaIndicator {
+    display: none;
+}
+
+@media (max-width: 992px) {
+    #saveLoadArea {
+        position: absolute;
+        width: 400px;
+        right: -400px;
+        background-color: #3D3D3D;
+        padding: 20px 20px;
+    }
+
+    #saveLoadAreaIndicator {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        left: -60px;
+        background-color: #fff;
+        width: 60px;
+        height: 124px;
+        margin-top: -20px;
+        border-top-left-radius: 9px;
+        border-bottom-left-radius: 9px;
+        border: 1px solid #ccc;
+    }
+
+    #saveLoadArea .save_button {
+        display: block;
+    }
+    #saveLoadArea .close_button {
+        display: none;
+    }
+
+    #saveLoadArea.active{
+        right: 0 !important;
+    }
+
+    #saveLoadArea.active .save_button {
+        display: none;
+    }
+    #saveLoadArea.active .close_button {
+        display: block;
+    }
+    
+    #saveLoadArea .btn-outline-primary {
+        background-color: #FFF !important;
+    }
+
+}
+
+
+
+
+
+/* tablo satırları ve sütunlarını oluşturan drop alanları */
+.pvtCols {
+    padding: 5px;
+    min-width: 149px;
+    width: calc(100% - 270px);
+    overflow-x: auto;
+}
+
+.pvtRows {
+    padding: 5px;
+    max-height: 100vh;
+    width: 235px;
+}
+
+.pvtCols button.btn {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 8px 6px;
+    display: list-item;
+    list-style-type: none;
+}
+
+.pvtRows button.btn {
+    margin: 8px 6px;
+    width: calc(100% - 12px);
+    display: list-item;
+    list-style-type: none;
+}
+
+.pvtCols .close, .pvtRows .close {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.full-screen {
+    position: absolute;
+    z-index: 9999;
+    width: 100% !important;
+    height: 100% !important;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #fff;
+}
+
+.responsive-table {
+    overflow: auto;
+    width: calc(100% - 270px);
+    -webkit-overflow-scrolling: touch;
+}
+
+#modalForVariable li {
+    cursor: pointer;
+}
+
+#modalForVariable li:hover {
+    background-color: #3D3D3D;
+    color: #fff;
+}
+
+#modalForVariable li:hover .pvtTriangle {
+    color: #fff;
+}
+
+
+
+
+/* WARNING FOR ROTATE - THE HORIZONTAL && SMALL SCREEN */
+.warning{
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    padding-top: 20vh;
+}
+
+.warning > img{
+    width: 40%;
+    margin-left: 30%;
+}
+
+.warning > .span{
+    width: 100%;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 2rem;
+}
+
+
+/* plotly grafiklerinde plotly linkini kaldırmak içindir */
+a.modebar-btn.plotlyjsicon.modebar-btn--logo {
+    display: none !important;
+}

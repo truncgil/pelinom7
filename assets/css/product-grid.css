@@ -1,0 +1,48 @@
+.sepet_ekle *
+{
+	color:white;
+}
+.begen {
+	position:absolute;
+	right:10px;
+	top:10px;
+}
+.product {
+	border: solid 1px #4509561f !important;
+	margin-bottom: 30px;
+	border-radius: 10px;
+	text-align: center !important;
+	/* height: 600px; */
+}
+.product * {
+	text-align:center !important;
+	text-decoration: none !important;
+}
+.product .card-title {
+	font-size: 18px;
+	height: 67px;
+	margin-top:5px;
+	padding:0px 30px;
+	font-weight: 300;
+	color: #636363;
+	text-decoration: none !important;
+}
+.price h5 {
+	font-size: 20px !important;
+	color: #e0cd00;
+	display: block;
+	width: 100%;
+}
+
+.siralama-btns {
+	margin-bottom:10px;
+}
+.filter input {
+	width:100px;
+}
+.btn i {
+	color: white;
+}
+.btn-link i {
+	color: #c1c1c1 !important;
+}
